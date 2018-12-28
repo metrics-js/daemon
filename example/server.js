@@ -11,6 +11,6 @@ const dest = new stream.Writable({
     },
 });
 
-const daemon = new Daemon();
+const daemon = new Daemon('udp');
 daemon.pipe(dest);
 daemon.listen();
