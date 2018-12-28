@@ -1,3 +1,3 @@
-# process
+# @metrics/daemon
 
-Module for collecting different process and system metrics and providing them as a metric stream
+Daemon for collecting metrics over misc network protocols. Provides a stream for further piping of metrics.
