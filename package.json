@@ -33,7 +33,9 @@
   "dependencies": {
     "abslog": "^2.2.3",
     "readable-stream": "^3.1.1",
-    "@metrics/metric": "^1.0.0"
+    "@metrics/metric": "^1.0.0",
+    "@metrics/emitter": "^0.0.1",
+    "@metrics/client": "^2.2.0"
   },
   "devDependencies": {
     "eslint": "^5.10.0",
