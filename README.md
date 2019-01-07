@@ -15,7 +15,7 @@ $ npm install @metrics/daemon
 
 ## Example
 
-Set up a daemon with UDP on port 6000 as transport and pipes the incomming metrics into the `@metrics/client`:
+Set up a daemon with UDP on port 6000 as transport and pipes the incomming metrics into the [`@metrics/client`](https://github.com/metrics-js/client):
 
 ```js
 const Daemon = require('@metrics/daemon');
@@ -33,10 +33,10 @@ daemon.listen();
 
 This module makes it possible to create a socket one can recieve metrics over. The socket can
 be of different protocols (UDP, TCP etc) but the data trasmitted over it is expected to be of
-the [metrics](https://github.com/metrics-js/metric) type. The recieved metrics can be piped
-to other metric modules for further handling.
+the [`@metrics/metric`](https://github.com/metrics-js/metric) type. The recieved metrics can
+be piped to other metric modules for further handling.
 
-For sending metrics over a socket one are expected to use the `@metrics/emitter`(https://github.com/metrics-js/emitter) module.
+For sending metrics over a socket one are expected to use the [`@metrics/emitter`](https://github.com/metrics-js/emitter) module.
 
 The main purpose of this is to be able to collect metrics from multiple processes. Here is a
 simplified example of each worker in a cluster pushing metrics to the master and the master
