@@ -31,9 +31,9 @@
     "daemon"
   ],
   "dependencies": {
-    "abslog": "^2.2.3",
-    "readable-stream": "^3.1.1",
-    "@metrics/metric": "^2.1.0"
+    "abslog": "^2.4.0",
+    "readable-stream": "^3.4.0",
+    "@metrics/metric": "^2.3.1"
   },
   "devDependencies": {
     "eslint": "^6.5.0",
