@@ -31,16 +31,16 @@
     "daemon"
   ],
   "dependencies": {
-    "abslog": "^2.2.3",
-    "readable-stream": "^3.1.1",
-    "@metrics/metric": "^2.1.0"
+    "abslog": "^2.4.0",
+    "readable-stream": "^3.4.0",
+    "@metrics/metric": "^2.3.1"
   },
   "devDependencies": {
-    "eslint": "^5.10.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "tap": "^12.1.1",
+    "eslint": "^6.5.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "tap": "^14.6.9",
     "@metrics/emitter": "^0.0.1",
-    "@metrics/client": "^2.2.0"
+    "@metrics/client": "^2.4.1"
   }
 }
