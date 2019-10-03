@@ -1,6 +1,6 @@
 {
   "name": "@metrics/daemon",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Daemon for collecting metrics over misc network protocols. Provides a stream for further piping of metrics.",
   "main": "lib/daemon.js",
   "bin": {
