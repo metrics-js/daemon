@@ -36,9 +36,9 @@
     "@metrics/metric": "^2.3.1"
   },
   "devDependencies": {
-    "eslint": "^6.5.0",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-import": "^2.19.1",
     "tap": "^14.6.9",
     "@metrics/emitter": "^0.0.2",
     "@metrics/client": "^2.4.1"
