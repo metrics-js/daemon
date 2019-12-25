@@ -2,10 +2,10 @@
 
 const Emitter = require('@metrics/emitter');
 const cluster = require('cluster');
-const Daemon = require('../');
 const Client = require('@metrics/client');
 const stream = require('readable-stream');
 const os = require('os');
+const Daemon = require('../');
 
 const port = 60600;
 

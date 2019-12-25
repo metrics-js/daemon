@@ -1,9 +1,9 @@
 'use strict';
 
 const tap = require('tap');
-const stream = require('readable-stream');
+// const stream = require('readable-stream');
 const Daemon = require('../');
-
+/*
 const destObjectStream = (done) => {
     const arr = [];
 
@@ -21,7 +21,7 @@ const destObjectStream = (done) => {
 
     return dStream;
 };
-
+*/
 /**
  * Constructor
  */
