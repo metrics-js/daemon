@@ -2,10 +2,9 @@
 
 Daemon for collecting metrics over a network. Provides a stream for further piping of metrics.
 
-[![Dependencies](https://img.shields.io/david/metrics-js/daemon.svg?style=flat-square)](https://david-dm.org/metrics-js/daemon)
-[![Build Status](http://img.shields.io/travis/metrics-js/daemon/master.svg?style=flat-square)](https://travis-ci.org/metrics-js/daemon)
-[![Greenkeeper badge](https://badges.greenkeeper.io/metrics-js/daemon.svg?style=flat-square)](https://greenkeeper.io/)
-[![Known Vulnerabilities](https://snyk.io/test/github/metrics-js/daemon/badge.svg?targetFile=package.json&style=flat-square)](https://snyk.io/test/github/metrics-js/daemon?targetFile=package.json)
+[![Dependencies](https://img.shields.io/david/metrics-js/daemon.svg)](https://david-dm.org/metrics-js/daemon)
+[![GitHub Actions status](https://github.com/metrics-js/daemon/workflows/Run%20Lint%20and%20Tests/badge.svg)](https://github.com/metrics-js/daemon/actions?query=workflow%3A%22Run+Lint+and+Tests%22)
+[![Known Vulnerabilities](https://snyk.io/test/github/metrics-js/daemon/badge.svg?targetFile=package.json)](https://snyk.io/test/github/metrics-js/daemon?targetFile=package.json)
 
 ## Installation
 
