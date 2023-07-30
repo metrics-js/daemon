@@ -39,7 +39,7 @@
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-plugin-import": "2.20.0",
-    "tap": "14.11.0",
+    "tap": "16.3.8",
     "@metrics/emitter": "0.0.2",
     "@metrics/client": "2.5.0"
   }
