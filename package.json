@@ -41,6 +41,6 @@
     "eslint-plugin-import": "2.20.0",
     "tap": "14.11.0",
     "@metrics/emitter": "0.0.2",
-    "@metrics/client": "2.5.0"
+    "@metrics/client": "2.5.1"
   }
 }
