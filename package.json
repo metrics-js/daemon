@@ -1,6 +1,6 @@
 {
   "name": "@metrics/daemon",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Daemon for collecting metrics over misc network protocols. Provides a stream for further piping of metrics.",
   "main": "lib/daemon.js",
   "bin": {
@@ -36,11 +36,18 @@
     "@metrics/metric": "^2.3.1"
   },
   "devDependencies": {
+    "@metrics/client": "2.5.1",
+    "@metrics/emitter": "0.0.2",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/commit-analyzer": "11.1.0",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "9.2.1",
+    "@semantic-release/npm": "11.0.1",
+    "@semantic-release/release-notes-generator": "12.1.0",
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-plugin-import": "2.20.0",
-    "tap": "14.11.0",
-    "@metrics/emitter": "0.0.2",
-    "@metrics/client": "2.5.1"
+    "semantic-release": "22.0.7",
+    "tap": "14.11.0"
   }
 }
