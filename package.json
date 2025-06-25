@@ -46,9 +46,9 @@
     "@semantic-release/release-notes-generator": "12.1.0",
     "eslint": "9.29.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-prettier": "5.5.0",
+    "eslint-plugin-prettier": "5.5.1",
     "globals": "15.9.0",
-    "prettier": "3.5.3",
+    "prettier": "3.6.1",
     "semantic-release": "23.0.2",
     "tap": "18.7.1"
   }
