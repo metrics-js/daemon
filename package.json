@@ -39,17 +39,17 @@
     "@metrics/client": "2.5.2",
     "@metrics/emitter": "0.0.2",
     "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/commit-analyzer": "11.1.0",
+    "@semantic-release/commit-analyzer": "13.0.1",
     "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "9.2.6",
-    "@semantic-release/npm": "11.0.3",
-    "@semantic-release/release-notes-generator": "12.1.0",
+    "@semantic-release/github": "12.0.2",
+    "@semantic-release/npm": "13.1.2",
+    "@semantic-release/release-notes-generator": "14.1.0",
     "eslint": "9.32.0",
     "eslint-config-prettier": "9.1.2",
     "eslint-plugin-prettier": "5.5.4",
     "globals": "15.9.0",
     "prettier": "3.6.2",
-    "semantic-release": "23.0.2",
+    "semantic-release": "25.0.2",
     "tap": "18.7.1"
   }
 }
