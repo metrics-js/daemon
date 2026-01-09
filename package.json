@@ -7,8 +7,8 @@
     "metricd": "./bin/bin.js"
   },
   "scripts": {
-    "test": "tap test/*.js --disable-coverage --allow-empty-coverage",
-    "test:coverage": "tap test/*.js",
+    "test": "node --test test/*.js",
+    "test:coverage": "node --test --experimental-test-coverage test/*.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -33,7 +33,7 @@
   "dependencies": {
     "@metrics/metric": "^2.3.1",
     "abslog": "^2.4.0",
-    "readable-stream": "^3.4.0"
+    "readable-stream": "^4.0.0"
   },
   "devDependencies": {
     "@metrics/semantic-release-config": "1.0.0",
@@ -44,7 +44,6 @@
     "eslint-plugin-prettier": "5.5.4",
     "globals": "15.9.0",
     "prettier": "3.6.2",
-    "semantic-release": "25.0.2",
-    "tap": "18.7.1"
+    "semantic-release": "25.0.2"
   }
 }
