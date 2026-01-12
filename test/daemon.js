@@ -1,6 +1,7 @@
 "use strict";
 
-const tap = require("tap");
+const { test } = require("node:test");
+const assert = require("node:assert");
 // const stream = require('readable-stream');
 const Daemon = require("../");
 /*
@@ -26,8 +27,7 @@ const destObjectStream = (done) => {
  * Constructor
  */
 
-tap.test("Constructor() - object type - should be MetricsDaemon", (t) => {
+test("Constructor() - object type - should be MetricsDaemon", () => {
 	const daemon = new Daemon();
-	t.equal(Object.prototype.toString.call(daemon), "[object MetricsDaemon]");
-	t.end();
+	assert.strictEqual(Object.prototype.toString.call(daemon), "[object MetricsDaemon]");
 });
