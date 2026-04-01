@@ -39,7 +39,7 @@
     "@metrics/semantic-release-config": "1.0.0",
     "@metrics/client": "2.5.5",
     "@metrics/emitter": "0.0.3",
-    "eslint": "9.39.3",
+    "eslint": "9.39.4",
     "eslint-config-prettier": "9.1.2",
     "eslint-plugin-prettier": "5.5.5",
     "globals": "15.15.0",
